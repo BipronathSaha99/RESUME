@@ -1,0 +1,174 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap');
+
+/*font-family: 'Handlee', cursive; */
+/*Handlee font was taken to check but not used in this project.*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    color: #11999f;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: #e4f9f5;
+}
+
+.common-hr{
+    border: 1px solid black;
+    border-bottom:none;
+    margin:20px auto;
+    width: 100%;
+}
+/*header section design starts here*/
+#header{
+    padding: 1% 5%;
+}
+
+#header img{
+    width: 80px;
+    height: auto;
+}
+
+#header h2{
+    font-size: 25px;
+    font-weight: 700 !important;
+}
+
+#header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.header-icon{
+    
+    float: left;
+    overflow: hidden;
+
+}
+
+.header-icon i.icon-style{
+    color: #fb5200;
+    cursor: pointer;
+}
+p.icon-para{
+    display:inline;
+    margin: 5px;
+}
+
+.header-icon a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+.header-icon a:hover{
+    color:#fb5200;
+    transition: 0.4s;
+}
+
+.header-hr{
+    border: 3px solid black;
+    border-bottom: none;
+    width:100%;
+    margin: 20px auto;
+}
+
+/*header section design ends here*/
+
+/*Personal info section starts here*/
+#Pinfo{
+    padding: 1% 5%;
+}
+
+#Pinfo h5{
+    font-size: 18px;
+    font-weight: 700 !important;
+}
+
+.Content p{
+    width: 100%;
+    line-height: 15px;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+/*Personal info section ends here*/
+
+/*work info section starts here*/
+#workInfo{
+    padding: 1% 5%;
+}
+
+#workInfo h5{
+    font-size: 18px;
+    font-weight: 700 !important;
+}
+
+/*work info section ends here*/
+
+/*educational info section starts here*/
+#eduInfo{
+    padding:1% 5% ;
+}
+.Content ul.edulist li{
+        list-style-type: none;
+}
+
+/*educational info section ends here*/
+
+/*skill section starts here*/
+#skillInfo{
+    padding: 1% 5%;
+}
+
+.Content ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*skill section ends here*/
+
+/*reference saection starts here*/
+#refInfo{
+    padding: 1% 5%;
+}
+/*reference section ends here*/
+
+/*footer section starts here*/
+#footer{
+    padding: 1% 5%;
+    background-color:#000;
+    color: #fff;
+}
+.footer-social  i{
+    font-size: 16px !important;
+    color: #fb5200;
+}
+.footer-hr{
+    border: 1px solid #fff;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/*footer section ends here*/

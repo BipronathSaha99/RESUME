@@ -1,0 +1,77 @@
+/*extra small device responsiveness*/
+@media  screen and (max-width:368px) {
+    #header{
+        text-align: center;
+    }
+}
+
+/*small device responsiveness*/
+@media  screen and (max-width:576px) {
+    #header{
+        text-align: center;
+    }
+
+    .header-container{
+        display: block;
+    }
+    .header-icon.icon-para{
+        display: block;
+    }
+    .pinfo-container h5{
+        text-align: center;
+    }
+
+    .winfo-container h5{
+        text-align: center;
+    }
+    .einfo-container h5{
+        text-align: center;
+    }
+    .sinfo-container h5{
+        text-align: center;
+    }
+
+    .rinfo-container h5{
+        text-align: center;
+    }
+    .Content p{
+        float: left;
+        overflow: hidden;
+    }
+    
+    
+}
+
+/*medium device responsiveness*/
+@media  screen and (max-width:768px) {
+    #header{
+        text-align: center;
+    }
+
+    .header-container{
+        text-align: center;
+    }
+    .pinfo-container h5{
+        text-align: center;
+    }
+
+    .winfo-container h5{
+        text-align: center;
+    }
+    .einfo-container h5{
+        text-align: center;
+    }
+    .sinfo-container h5{
+        text-align: center;
+    }
+
+    .rinfo-container h5{
+        text-align: center;
+    }
+    .Content p{
+        float: left;
+        overflow: hidden;
+    }
+    
+    
+}
